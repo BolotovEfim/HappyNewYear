@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    position: relative; /* Добавлено для позиционирования наложения */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+body::before {
+    content: ""; /* Псевдоэлемент для наложения */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://i.postimg.cc/MGT06K2N/photo-2024-05-19-15-42-291.jpg'); /* Замените на URL вашей картинки */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* Затемнение изображения */
+    z-index: -1; /* Отправляем наложение на задний план */
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: #ffcc00;
+    font-size: 2em;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.3);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.compliments {
+    margin: 20px 0;
+    font-style: italic;
+    color: #ffcc00;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #ccc;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff6347;
+}
+
+Найти еще

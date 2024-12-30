@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым годом, моя любимая!</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://i.postimg.cc/NMdx898g/photo-2024-05-19-15-42-29.jpg'); /* Замените на ваш фон */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #ff4500;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff6347;
+        }
+
+        #message {
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>С Новым годом, моя любимая!</h1>
+
+    <p>Дорогая <strong>Танюша</strong>,</p>
+
+    <p>С наступающим Новым годом! В этот волшебный момент я хочу сказать тебе, как сильно ты для меня значишь. Ты — мой свет, моя радость и вдохновение. Каждый день, проведенный с тобой, — это подарок, который я ценю больше всего на свете.</p>
+
+    <h2>Пусть этот Новый год принесет тебе:</h2>
+    <ul>
+        <li><strong>Счастье</strong>: Пусть каждый день будет наполнен радостью и смехом.</li>
+        <li><strong>Любовь</strong>: Я надеюсь, что наша любовь станет только крепче и ярче.</li>
+        <li><strong>Успех</strong>: Пусть все твои мечты сбудутся, а цели достигнутся.</li>
+        <li><strong>Здоровье</strong>: Береги себя, чтобы мы могли наслаждаться каждым мгновением вместе.</li>
+    </ul>
+
+    <p class="compliments">Ты — невероятная, умная и красивая. Твоя улыбка способна осветить даже самый пасмурный день. Я горжусь тем, что ты моя, и хочу, чтобы ты знала, как сильно я тебя люблю.</p>
+
+    <h2>В этом году:</h2>
+    <ul>
+        <li>Пусть каждый твой шаг будет уверенным.</li>
+        <li>Пусть каждый новый день приносит удачу.</li>
+        <li>Пусть в твоем сердце всегда живет надежда и радость.</li>
+    </ul>
+
+    <p>С тобой я чувствую себя счастливым, и я надеюсь, что в новом году мы создадим множество незабываемых моментов вместе.</p>
+
+    <div class="footer">С любовью и теплом,<br>от твоего медвежонка!</div>
+
+    <a href="#" class="button" id="greetButton">Поздравить!</a> <!-- Кнопка для поздравления -->
+
+    <div id="message" class="hidden">
+        <p>Моё солнышко, я очень рад, что в этом году у меня появилась такая как ты!</p>
+        <p>Ты для меня самый ценный человек в жизни!</p>
+        <p>И когда ты 22.02.2024 сказала мне ДА! Я был на 7 небе от счастья!</p>
+        <p>Я очень рад, что смог войти в твой круг общества и стать для тебя больше чем друг!</p>
+        <p>Я очень тебя люблю!</p>
+        <p>И никому не отдам!</p>
+        <p>В 2025 год я забираю тебя с собой, ведь там мне без тебя делать нечего ты для меня сделала очень много, но самое главное ты появилась в моей жизни и это я ценю больше всего! Ведь это был самый лучший подарок на 2024 год.</p>
+        <p>С НОВЫМ ГОДОМ ТЕБЯ МОЁ СОЛНЫШКО!!!</p>
+    </div>
+
+    <script>
+        document.getElementById('greetButton').addEventListener('click', function() {
+            document.getElementById('message').classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
